@@ -1,0 +1,22 @@
+services:
+  db:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodata:/data/db
+    network_mode: "host"
+  auth_service:
+    build: ./auth_service
+    volumes:
+      - ./auth_service:/app
+    network_mode: "host"
+    depends_on:
+      - db
+    environment:
+      RAILS_ENV: development
+      SECRET_KEY_BASE: 7c1a0780566509058bf1824028c60780c860ea848f747456748ee9d0631dcc68145f6f78a6ecb8076012b136f569b224c532def2100515fe56844e09e6a2b018
+
+ 
+volumes:
+  mongodata:
