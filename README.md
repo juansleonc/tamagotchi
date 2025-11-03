@@ -159,7 +159,18 @@ This project includes a comprehensive system of AI agents:
 - **Documentation Agent**: Auto-generate API and inline documentation
 - **Security Agent**: Scan for vulnerabilities and security issues
 
-See [agents/README.md](./agents/README.md) for details and [agents/INTEGRATION.md](./agents/INTEGRATION.md) for integration instructions.
+### Quick Start
+
+1. **Install dependencies**: `./agents/install.sh` or see [Quick Start Guide](./agents/QUICK_START.md)
+2. **Configure Cursor**: Update `~/.cursor/mcp.json` using [mcp-config-example.json](./mcp-config-example.json)
+3. **Restart Cursor** and start using agents in the chat!
+
+### Documentation
+
+- 📖 [Complete Usage Guide](./agents/USAGE.md) - Detailed instructions on using all agents
+- 🚀 [Quick Start](./agents/QUICK_START.md) - Get started in 5 minutes
+- 🔧 [Integration Guide](./agents/INTEGRATION.md) - Technical integration details
+- 📚 [Agents Overview](./agents/README.md) - Architecture and agent details
 
 ## 📚 Documentation
 

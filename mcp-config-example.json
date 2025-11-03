@@ -1,0 +1,36 @@
+{
+  "mcpServers": {
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"],
+      "env": {
+        "CONTEXT7_API_KEY": "YOUR_CONTEXT7_API_KEY_HERE"
+      }
+    },
+    "testing-agent": {
+      "command": "node",
+      "args": ["/Users/leon/workspace/tamagochi/agents/testing-agent/index.js"]
+    },
+    "code-review-agent": {
+      "command": "node",
+      "args": ["/Users/leon/workspace/tamagochi/agents/code-review-agent/index.js"]
+    },
+    "best-practices-agent": {
+      "command": "node",
+      "args": ["/Users/leon/workspace/tamagochi/agents/best-practices-agent/index.js"]
+    },
+    "clean-code-agent": {
+      "command": "node",
+      "args": ["/Users/leon/workspace/tamagochi/agents/clean-code-agent/index.js"]
+    },
+    "documentation-agent": {
+      "command": "node",
+      "args": ["/Users/leon/workspace/tamagochi/agents/documentation-agent/index.js"]
+    },
+    "security-agent": {
+      "command": "node",
+      "args": ["/Users/leon/workspace/tamagochi/agents/security-agent/index.js"]
+    }
+  }
+}
+
