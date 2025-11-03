@@ -1,0 +1,22 @@
+{
+  "name": "@tamagochi/testing-agent",
+  "version": "1.0.0",
+  "description": "Testing agent for generating RSpec and Jest tests",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "testing",
+    "rspec",
+    "jest",
+    "rails",
+    "react-native"
+  ]
+}
+

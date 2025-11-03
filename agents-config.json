@@ -1,0 +1,40 @@
+{
+  "agents": {
+    "testing-agent": {
+      "enabled": true,
+      "path": "./agents/testing-agent/index.js",
+      "description": "Generate and manage tests for Rails and React Native"
+    },
+    "code-review-agent": {
+      "enabled": true,
+      "path": "./agents/code-review-agent/index.js",
+      "description": "Automated code review with security and style checks"
+    },
+    "best-practices-agent": {
+      "enabled": true,
+      "path": "./agents/best-practices-agent/index.js",
+      "description": "Enforce best practices for Rails, React Native, and GraphQL"
+    },
+    "clean-code-agent": {
+      "enabled": true,
+      "path": "./agents/clean-code-agent/index.js",
+      "description": "Detect code smells and suggest refactorings"
+    },
+    "documentation-agent": {
+      "enabled": true,
+      "path": "./agents/documentation-agent/index.js",
+      "description": "Auto-generate and maintain documentation"
+    },
+    "security-agent": {
+      "enabled": true,
+      "path": "./agents/security-agent/index.js",
+      "description": "Scan for vulnerabilities and security issues"
+    }
+  },
+  "orchestration": {
+    "auto-review": true,
+    "auto-test": false,
+    "auto-docs": true
+  }
+}
+

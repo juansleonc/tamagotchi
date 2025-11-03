@@ -1,0 +1,56 @@
+# Cursor Rules for this Project
+
+## Automatic Context7 Usage
+
+Always use Context7 when you need code generation, setup or configuration steps, or library/API documentation. This means you should automatically use the Context7 MCP tools (`resolve-library-id` and `get-library-docs`) without having to explicitly ask for it.
+
+### When to use Context7:
+- When generating code that uses external libraries
+- When needing up-to-date documentation for APIs or frameworks
+- When configuring new dependencies or tools
+- When searching for implementation examples for specific functionalities
+
+### Known Library Syntax:
+You can use library ID syntax directly in requests:
+- `/rails/rails` for Ruby on Rails
+- `/websites/reactnative_dev` for React Native
+- `/rmosolgo/graphql-ruby` for GraphQL Ruby
+- `/rspec/rspec-rails` for RSpec
+
+This allows skipping the ID resolution step and getting documentation directly.
+
+## AI Agents Usage
+
+This project includes AI agents for development assistance. Use them when:
+
+- **Testing Agent**: When you need to generate tests or analyze test coverage
+- **Code Review Agent**: Before committing code, review for style and security
+- **Best Practices Agent**: Check code against framework best practices
+- **Clean Code Agent**: Detect code smells and get refactoring suggestions
+- **Documentation Agent**: Generate or update documentation
+- **Security Agent**: Scan for security vulnerabilities
+
+## Project Standards
+
+### Code Style
+- Ruby: Follow RuboCop rules, use trailing commas in multiline calls, use `%r{}` for regex
+- JavaScript/TypeScript: Use ESLint and Prettier, consistent quote style
+- GraphQL: PascalCase for types, camelCase for fields, add descriptions
+
+### Testing
+- Rails: Write RSpec tests for models, controllers, and GraphQL resolvers
+- React Native: Write Jest tests for components and hooks
+- Aim for good test coverage but prioritize quality
+
+### Documentation
+- All GraphQL types and fields must have descriptions
+- Complex logic should have inline comments
+- Update README and guides when adding features
+
+## Technology Stack
+
+- **Backend**: Ruby on Rails with GraphQL
+- **Frontend**: React Native
+- **Database**: PostgreSQL
+- **Testing**: RSpec (Rails), Jest (React Native)
+- **Code Quality**: RuboCop, ESLint, Prettier

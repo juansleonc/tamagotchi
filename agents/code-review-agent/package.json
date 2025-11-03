@@ -1,0 +1,20 @@
+{
+  "name": "@tamagochi/code-review-agent",
+  "version": "1.0.0",
+  "description": "Code review agent with security and style checks",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "code-review",
+    "security",
+    "linting"
+  ]
+}
+

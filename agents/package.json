@@ -1,0 +1,26 @@
+{
+  "name": "@tamagochi/agents",
+  "version": "1.0.0",
+  "description": "AI agents system using MCP servers for code quality, testing, and documentation",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "agents",
+    "code-review",
+    "testing",
+    "documentation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
+

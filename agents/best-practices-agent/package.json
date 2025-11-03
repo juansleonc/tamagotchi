@@ -1,0 +1,21 @@
+{
+  "name": "@tamagochi/best-practices-agent",
+  "version": "1.0.0",
+  "description": "Best practices agent for Rails, React Native, and GraphQL",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "best-practices",
+    "rails",
+    "react-native",
+    "graphql"
+  ]
+}
+
